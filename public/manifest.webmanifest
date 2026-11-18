@@ -1,0 +1,17 @@
+{
+  "name": "NOVA PC",
+  "short_name": "NOVA PC",
+  "description": "Fondos gamer y personalización visual para Windows",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b14",
+  "theme_color": "#080b14",
+  "icons": [
+    {
+      "src": "/images/nova-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

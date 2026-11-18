@@ -1,0 +1,18 @@
+IMÁGENES DE PRODUCTOS ACTUALES
+
+- gamesir-x5-lite.png     → GameSir X5 Lite
+- ajazz-aj139v2-mc.png    → AJAZZ AJ139 V2 MC
+- onikuma-x91.png         → Usada temporalmente para ONIKUMA X25 (puedes reemplazarla)
+- headset-rgb.png         → Usada temporalmente para ONIKUMA GT806 (puedes reemplazarla)
+
+CÓMO AGREGAR MÁS IMÁGENES
+
+1. Guarda la foto en formato PNG o JPG real (no solo cambies la extensión).
+2. Colócala en esta carpeta: public/products/
+3. El nombre del archivo debe coincidir exactamente con lo que pongas en products.js
+   Ejemplo: image: "/products/mi-nuevo-producto.png"
+4. Abre src/data/products.js y agrega o edita el producto.
+5. Ejecuta npm run dev y revisa que se vea bien.
+6. Si la imagen no aparece: revisa mayúsculas, extensión real y la consola del navegador (F12).
+
+NOTA: Las fotos de X25 y GT806 son temporales. Cuando tengas las fotos correctas de esos modelos, reemplaza los archivos y actualiza la ruta en products.js.
